@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Virtual Assistance Services - BruntWork Clone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: white;
+      color: black;
+    }
+    a {
+      color: #2563eb; /* Tailwind blue-600 */
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #1d4ed8; /* Tailwind blue-700 */
+    }
+  </style>
+</head>
+<body class="antialiased">
+
+  <!-- Header -->
+  <header class="flex items-center justify-between px-6 py-4 border-b border-gray-200">
+    <a href="#" class="flex items-center space-x-2">
+      <img src="https://www.bruntwork.co/wp-content/uploads/2020/05/Asset-1_4x-1.png" alt="BruntWork Logo" class="h-10 w-auto" />
+      <span class="font-bold text-xl">BruntWork™</span>
+    </a>
+    <nav class="space-x-6 hidden md:flex">
+      <a href="#services" class="font-semibold hover:text-blue-700">Services</a>
+      <a href="#contact" class="font-semibold hover:text-blue-700">Contact Us</a>
+    </nav>
+    <button class="md:hidden text-black focus:outline-none" aria-label="Open menu">
+      <!-- Hamburger menu placeholder -->
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="6" x2="21" y2="6" />
+        <line x1="3" y1="12" x2="21" y2="12" />
+        <line x1="3" y1="18" x2="21" y2="18" />
+      </svg>
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-12">
+    <div class="md:w-1/2 space-y-6">
+      <h1 class="text-4xl font-extrabold leading-tight">
+        Outsource Anything<br />
+        <span class="text-blue-600">Build Your Team</span>
+      </h1>
+      <p class="text-lg text-gray-700">
+        Outsource to talented Virtual Assistants in the Philippines, Colombia, Eastern Europe and other countries of your choosing.
+      </p>
+      <a href="#contact" class="inline-block bg-black text-white px-6 py-3 rounded-md font-semibold hover:bg-gray-800 transition">
+        Contact Us Today
+      </a>
+    </div>
+    <div class="md:w-1/2">
+      <img src="https://www.bruntwork.co/wp-content/uploads/2024/07/ONA_0782-768x512.jpg" alt="Virtual Assistance" class="rounded-lg shadow-lg" />
+    </div>
+  </section>
+
+  <!-- Trusted By Section -->
+  <section class="bg-gray-50 py-12">
+    <div class="max-w-7xl mx-auto px-6 text-center space-y-6">
+      <p class="text-sm uppercase font-semibold text-gray-500 tracking-wide">Leading Website For Outsourced Talent</p>
+      <div class="flex flex-wrap justify-center items-center gap-8">
+        <a href="https://forbesliechtenstein.com/bruntwork-reaches-100m-in-revenue-strengthening-leadership-in-outsourcing/" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.bruntwork.co/wp-content/uploads/2023/03/1Forbes_-768x300.png" alt="Forbes" class="h-16 object-contain" />
+        </a>
+        <a href="https://www.fastcompany.co.za/business/bruntworks-virtual-first-approach-reshapes-outsourcing-f6b4637e-6d95-497d-9ddc-c058f780de4e" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.bruntwork.co/wp-content/uploads/2023/12/Fast_Company-1.png" alt="Fast Company" class="h-16 object-contain" />
+        </a>
+        <a href="https://markets.businessinsider.com/news/stocks/the-ceo-of-bruntwork-is-riding-the-remote-work-wave-1031160047" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.bruntwork.co/wp-content/uploads/2024/04/Business_Insider-removebg-preview-1.png" alt="Business Insider" class="h-16 object-contain" />
+        </a>
+        <a href="https://vanityfairde.com/bruntwork-pioneers-smart-outsourcing-solutions-for-modern-remote-work-challenges/" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.bruntwork.co/wp-content/uploads/2024/11/Vanity-Fair-logo-1024x576.png" alt="Vanity Fair" class="h-16 object-contain" />
+        </a>
+        <a href="https://www.dailymail.co.uk/tvshowbiz/article-13248637/BruntWorks-Rapid-Rise-Virtual-Assistant-Powerhouse-Social-Media-Excellence.html" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.bruntwork.co/wp-content/uploads/2024/04/Daily_Mail_Logo_2-removebg-preview-1-768x131.png" alt="Daily Mail" class="h-16 object-contain" />
+        </a>
+        <a href="https://variety.com.se/how-bruntwork-became-a-global-outsourcing-leader-with-80m-revenue-and-a-4500-strong-workforce/" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.bruntwork.co/wp-content/uploads/2024/11/Variety-Logo.png" alt="Variety" class="h-16 object-contain" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+    <div class="space-y-4">
+      <img src="https://www.bruntwork.co/wp-content/uploads/elementor/thumbs/ic_1-r55xivbula9kvzdtyohnakh6htt58f968mkvlekpys.png" alt="No lock in contracts" class="mx-auto h-20" />
+      <h3 class="font-semibold text-lg">No lock in contracts.</h3>
+    </div>
+    <div class="space-y-4">
+      <img src="https://www.bruntwork.co/wp-content/uploads/elementor/thumbs/ic_2-r55xivbula9kvzdtyohnakh6htt58f968mkvlekpyi.png" alt="No set up fees" class="mx-auto h-20" />
+      <h3 class="font-semibold text-lg">No set up fees (recruiting is free).</h3>
+    </div>
+    <div class="space-y-4">
+      <img src="https://www.bruntwork.co/wp-content/uploads/elementor/thumbs/ic_3-r55xiw9os4av7lcgt6w9v28n37oig4cwkr8d2ojbsa.png" alt="Free to change your staff" class="mx-auto h-20" />
+      <h3 class="font-semibold text-lg">Free to change your staff if you need to.</h3>
+    </div>
+    <div class="space-y-4">
+      <img src="https://www.bruntwork.co/wp-content/uploads/elementor/thumbs/ic_4-r55xix7iyyc5j7b3npawfk03oljvntgmwvvujyhxmc.png" alt="Only pay hourly rate" class="mx-auto h-20" />
+      <h3 class="font-semibold text-lg">Only pay an hourly rate which includes computer, internet and all fees.</h3>
+    </div>
+    <div class="space-y-4">
+      <img src="https://www.bruntwork.co/wp-content/uploads/elementor/thumbs/ic_5-r55xix7iyyc5j7b3npawfk03oljvntgmwvvujyhxm2.png" alt="24/7 operation" class="mx-auto h-20" />
+      <h3 class="font-semibold text-lg">24/7 operation (we can handle global businesses).</h3>
+    </div>
+    <div class="space-y-4">
+      <img src="https://www.bruntwork.co/wp-content/uploads/elementor/thumbs/ic_6-r55xiy5d5sdfut9qi7pj01rk9zf8vikd90jc18gjfu.png" alt="Minimum 20 hours per week" class="mx-auto h-20" />
+      <h3 class="font-semibold text-lg">Agents can work from a minimum of 20 hours per week.</h3>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="bg-gray-50 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-extrabold mb-8 text-center">Outsourced Agents For Any Task</h2>
+      <p class="text-center max-w-3xl mx-auto mb-12 text-gray-700">
+        Our global talent offer the versatile expertise to handle the everyday and the extraordinary – your vision sets the only limit.
+      </p>
+      <ul class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto text-gray-800 list-disc list-inside">
+        <li>Calendar and email management</li>
+        <li>Detailed research & data analysis</li>
+        <li>Spreadsheet creation & management</li>
+        <li>Website updates, audits, & optimization</li>
+        <li>Build and optimise online product listings</li>
+        <li>LinkedIn profile management for lead generation</li>
+        <li>Prompt and professional customer communication</li>
+      </ul>
+      <div class="text-center mt-12">
+        <a href="#contact" class="inline-block bg-black text-white px-6 py-3 rounded-md font-semibold hover:bg-gray-800 transition">
+          Contact Us Today
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs Section -->
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-extrabold mb-8 text-center">FAQs about BruntWork's Outsourcing Services</h2>
+    <div class="max-w-4xl mx-auto space-y-6 text-gray-800">
+      <details class="border border-gray-300 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">Why is BruntWork Considered The Leader in Outsourcing?</summary>
+        <p class="mt-2">
+          Outsourcing has been around for decades, however companies are now finding since Covid-19 that the need to have local staff has diminished significantly. If you are thinking about reducing operational cost in your business and improving efficiency, outsourcing could be perfect for your business. Outsourcing typically relates to the process of hiring your full or part-time employees and the Philippines is considered the leading country for outsourcing with incredibly high rates of education, an amazing, hard working culture and well established infrastructure for remote teams. BruntWork helps small and large companies establish remote teams in record time and has large clients who are ASX and NASDAQ listed (as well as many smaller ones). Let us help you outsource to the Philippines and find the perfect employee to fit your business.
+        </p>
+      </details>
+      <details class="border border-gray-300 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">Do I get a Dedicated Virtual Assistant?</summary>
+        <p class="mt-2">
+          We can do part time, or we can place full time Virtual Assistants that will work exclusively for you (or part time if you prefer). The assistants are hand-picked for you based on your requirements. For your company, it will be the same person throughout your journey so that you can build rapport and learn the needs of your business.
+        </p>
+      </details>
+      <details class="border border-gray-300 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">What Are The Key Skills Of Your Agents?</summary>
+        <p class="mt-2">
+          Great English, hard working attitude, university education and a friendly demeanor are the main qualities we look for. We also ensure they have a quiet space to work in, high spec computer and fast internet access.
+        </p>
+      </details>
+      <details class="border border-gray-300 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">How long does it take to set up a team?</summary>
+        <p class="mt-2">
+          14 days is the average time it takes for BruntWork to post a job ad, vet candidates, place them through extensive interviews and place them in your team. We take pride in making sure that we get the perfect fit of employees to your business.
+        </p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="bg-gray-50 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-extrabold mb-12 text-center">Hear about the BruntWork experience direct from our clients</h2>
+      <div class="space-y-12 max-w-5xl mx-auto">
+        <blockquote class="border-l-4 border-black pl-6 italic text-gray-700">
+          "Bruntwork has been instrumental in helping us build a strong, remote, global workforce to achieve success. We have thrown several tasks at them and they have delivered constantly. We highly recommend their services."
+          <footer class="mt-4 font-semibold">Manal Iqbal, Chief Executive Officer, Buddy Bet</footer>
+        </blockquote>
+        <blockquote class="border-l-4 border-black pl-6 italic text-gray-700">
+          "BruntWork's team has allowed us to scale our digital campaigns far more quickly and cost-effectively than local agencies. They have been the perfect solution for us as an early stage startup - they were quick to move and implement to test new campaigns, allowing us to learn quick and pivot if we need to."
+          <footer class="mt-4 font-semibold">Shanya Suppasiritad, Chief Executive Officer, RNTR</footer>
+        </blockquote>
+        <blockquote class="border-l-4 border-black pl-6 italic text-gray-700">
+          "As a multi-jurisdictional retailer, outstanding service to our clients is at the heart of everything we do. We approached BruntWork primarily for customer support and they have been outstanding at finding the best recruits to operate around the clock, at the lowest cost possible with speed unparalleled in the industry."
+          <footer class="mt-4 font-semibold">Anthony Spon-Smith, Chief Executive Officer, Coco Republic</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Hire Section -->
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-extrabold mb-8 text-center">How to Hire an Agent with BruntWork?</h2>
+    <p class="text-center max-w-3xl mx-auto mb-12 text-gray-700">
+      At BruntWork, our goal is to make outsourcing easy. Forget wading through pages of spam and unqualified freelancers on UpWork and other freelancing platforms. We take the guesswork out of offshore staffing with a bespoke process to find you the right agents to work with your business.
+    </p>
+    <ol class="max-w-3xl mx-auto list-decimal list-inside space-y-6 text-gray-800">
+      <li>
+        <h3 class="font-semibold">Discovery Call</h3>
+        <p>We know that every business is different which is why we take the time to understand your goals and resourcing requirements with a one-on-one Discovery Call, providing consultation and advice on getting the most out of your offshore team.</p>
+      </li>
+      <li>
+        <h3 class="font-semibold">Candidate Screening and Testing</h3>
+        <p>Based on your requirements, BruntWork’s recruitment team sources and selects for a shortlist of the top qualified candidates. We then perform a technical check of their computer and internet connection, as well as require the candidate to pass standardised English language, logic and numeric aptitude tests.</p>
+      </li>
+      <li>
+        <h3 class="font-semibold">Client Interview and Testing</h3>
+        <p>Only once we’ve screened and shortlisted the most suitable candidates will we set up a video call for you to interview. Our entire recruitment process is 100% free with no obligations – we only charge you once agents have started working and for the tracked hours they work.</p>
+      </li>
+      <li>
+        <h3 class="font-semibold">Cultural Awareness Training</h3>
+        <p>We provide a full day training session to ensure awareness of Western communication styles, including working with customers in countries such as in Australia, the US, Canada and the UK.</p>
+      </li>
+      <li>
+        <h3 class="font-semibold">Timesheet Tracked Hourly Billing</h3>
+        <p>BruntWork’s Client Services Team will track hours and provide you with fortnightly summaries of timesheets for your reference. You are only billed for the hours agents have logged to work.</p>
+      </li>
+      <li>
+        <h3 class="font-semibold">Admin & Account Management</h3>
+        <p>We tally up the total timesheet hours and send you one simple invoice for the total time worked each month.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Contact CTA Section -->
+  <section id="contact" class="bg-black text-white py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center space-y-6">
+      <h2 class="text-3xl font-extrabold">Get a free consultation with a BruntWork expert today</h2>
+      <a href="mailto:contact@bruntwork.co" class="inline-block bg-white text-black px-8 py-3 rounded-md font-semibold hover:bg-gray-200 transition">
+        Contact Us Today
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-12 mt-16">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 text-gray-700">
+      <div>
+        <h3 class="font-semibold mb-4">Company</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/about-us/">About Us</a></li>
+          <li><a href="/bruntwork-news-and-media/">In The Press</a></li>
+          <li><a href="/industries/">Industries</a></li>
+          <li><a href="/client-onboarding-deck/">How We Work</a></li>
+          <li><a href="/bruntwork-in-the-united-states/">United States</a></li>
+          <li><a href="/bruntwork-in-australia/">Australia</a></li>
+          <li><a href="/bruntwork-in-new-zealand/">New Zealand</a></li>
+          <li><a href="/bruntwork-in-philippines/">Philippines</a></li>
+          <li><a href="/bruntwork-in-colombia/">Colombia</a></li>
+          <li><a href="https://www.bruntworkcareers.co/">Careers</a></li>
+          <li><a href="https://www.google.com/partners/agency?id=9415414277">Google Ads Partner</a></li>
+          <li><a href="/iso-27001-2013-certified/">ISO 27001:2013</a></li>
+          <li><a href="/referral-program">Referral Program</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-4">Tools</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/about-us-and-pricing/">Pricing Calculator</a></li>
+          <li><a href="/a-b-testing/">A/B Testing Calculator</a></li>
+          <li><a href="/erlang">Erlang C Calculator</a></li>
+          <li><a href="/voice-samples/">Voice Samples</a></li>
+          <li><a href="/erlang/">Headcount Calculator</a></li>
+          <li><a href="/workspace-and-collaboration-tool/">Workspace & Collaboration Tool</a></li>
+          <li><a href="https://www.bruntwork.co/bruntwork-ai/">BruntWork AI</a></li>
+          <li><a href="https://www.bruntwork.co/ai-accent/">AI Accent</a></li>
+          <li><a href="https://www.bruntwork.co/ea-course/">EA Course</a></li>
+          <li><a href="https://www.bruntwork.co/bruntwork-coach/">BruntWork Coach</a></li>
+          <li><a href="/client-portal-information/">Client Portal</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-4">Why Outsource?</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/traits-and-values-defining-filipinos/">Filipino Traits</a></li>
+          <li><a href="/benefits-of-the-philippines">Benefits of Philippines</a></li>
+          <li><a href="/benefits-of-colombia">Benefits of Colombia</a></li>
+          <li><a href="/cost-savings">Cost Savings</a></li>
+          <li><a href="/increase-productivity/">Increase Productivity</a></li>
+          <li><a href="/quick-to-scale">Quick To Scale</a></li>
+          <li><a href="/outsourcing-growth-in-the-philippines/">Growth in Outsourcing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-4">Security & Privacy</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/iso-27001-2013-certified/">ISO, SOC Type 2 and HIPAA Certification</a></li>
+          <li><a href="/secure-remote-worker/">Remote Worker Device Security</a></li>
+          <li><a href="/privacy">Privacy</a></li>
+          <li><a href="/bruntwork-it-policy/">IT Policy</a></li>
+          <li><a href="https://www.bruntwork.co/bruntwork-modern-slavery-statement/">Modern Slavery Statement​</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center text-sm text-gray-500 mt-12">
+      &copy; BruntWork 2025 All rights reserved
+    </div>
+  </footer>
+
+</body>
+</html>
